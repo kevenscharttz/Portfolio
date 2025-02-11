@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E" alt="JavaScript Badge">
 </div>
 
-<img src="./assets/banner.png" alt="Banner do portfólio">
+<img src="./src/img/banner.png" alt="Banner do portfólio">
 
 Este projeto é um portfólio pessoal que redireciona o usuário para minhas redes sociais, como Instagram e GitHub, e serve como uma forma de mostrar meu trabalho e habilidades em desenvolvimento web.
 
