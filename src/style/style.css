@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 615px;
+    height: 482px;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    line-height: 56px;
+    font-family: var(--font-title);
+}
+
+span {
+    color: var(--contrast-color)
+}
+
+.main-content p {
+    font-size: 24px;
+    line-height: 36px;
+    font-family: var(--font-text);
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: var(--button-color);
+    border: none;
+    padding: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    width: 280px;
+    height: 79px;
+}
+
+button a {
+    color: var(--button-text-color);
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: var(--font-text);
+    text-decoration: none;
+}
+
+.foto-perfil {
+    margin-left: 58px;
+    width: 488px;
+    height: 550px;
+}

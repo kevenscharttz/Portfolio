@@ -1,0 +1,13 @@
+:root {
+    /* Document Colors */
+    --bg-color: #000000;
+    --text-color: #F6F6F6;
+    --contrast-color: #22D4FD;
+
+    --button-color: #22D4FD;
+    --button-text-color: #000000;
+
+    /* Fonts */
+    --font-title: 'Krona One', sans-serif;
+    --font-text: 'Montserrat', sans-serif;
+}
