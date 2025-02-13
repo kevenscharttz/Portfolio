@@ -33,7 +33,6 @@ body {
     align-items: center;
     height: 100vh;
     width: 100%;
-    flex-wrap: wrap;
 }
 
 .main__content {
@@ -60,22 +59,39 @@ body {
     font-family: var(--font-text);
 }
 
-.buttons{
+.buttons {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
 }
 
-.buttons__link{
-    background-color: var(--button-color);
-    width: 280px;
-    text-align: center;
-    border-radius: 16px;
+.buttons__subtitle {
+    font-family: var(--font-subtitle);
     font-size: 24px;
-    font-weight: 600;
-    padding: 21.5px 0;
+    line-height: 40px;
+}
+
+.buttons__link {
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 21.5px 0px;
     text-decoration: none;
+
+    border: var(--contrast-color) solid 2px;
     color: var(--button-text-color);
     font-family: 'Montserrat', sans-serif;
+}
+
+.buttons__link:hover {
+    background-color: var(--button-color-hover);
+    color: var(--button-text-color-hover);
+    transition: 0.5s;
 }
 
 .foto-perfil {

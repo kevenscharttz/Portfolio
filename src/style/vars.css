@@ -1,14 +1,17 @@
 :root {
     /* Document Colors */
     --bg-color: #000000;
+    --bg-color-footer: #22D4FD;
     --text-color: #F6F6F6;
     --contrast-color: #22D4FD;
 
     --button-color: #22D4FD;
-    --button-color-hover: #1b9ebb;
-    --button-text-color: #000000;
+    --button-color-hover: #f0f0f0;
+    --button-text-color: #f6f6f6;
+    --button-text-color-hover: #000000;
 
     /* Fonts */
     --font-title: 'Krona One', sans-serif;
+    --font-subtitle: 'Krona One', sans-serif;
     --font-text: 'Montserrat', sans-serif;
 }
