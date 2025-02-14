@@ -54,9 +54,13 @@ body {
 }
 
 .buttons__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid var(--contrast-color);
     width: 378px;
-    text-align: center;
+    text-align: center; 
     border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
@@ -64,4 +68,9 @@ body {
     text-decoration: none;
     color: var(--text-color);
     font-family: var(--font-text)
+}
+
+.buttons__link:hover {
+    background-color: var(--button-color-hover);
+    transition: .3s;
 }
