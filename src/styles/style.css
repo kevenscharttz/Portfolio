@@ -15,8 +15,32 @@ body {
     color: var(--contrast-color);
 }
 
+
+.header-container {
+    display: flex;
+    padding: 2% 15% 0% 15%;
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-family: var(--font-text);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header__menu__link:hover {
+    color: var(--nav-link-color-hover);
+    transition: .3s;
+}
+
 .main-container {
-    padding: 8% 15%;
+    padding: 5.0% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -78,12 +102,10 @@ body {
     background-color: var(--bg-color-footer);
     width: 100%;
     padding: 24px 0px;
-}
-
-.footer__text {
     font-size: 24px;
     text-align: center;
     line-height: 36px;
     font-family: var(--font-text);
     color: var(--footer-text-color);
 }
+
