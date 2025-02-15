@@ -6,7 +6,6 @@
 /* CSS Document */
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -17,7 +16,7 @@ body {
 }
 
 .main-container {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,4 +72,18 @@ body {
 .buttons__link:hover {
     background-color: var(--button-color-hover);
     transition: .3s;
+}
+
+.footer-container {
+    background-color: var(--bg-color-footer);
+    width: 100%;
+    padding: 24px 0px;
+}
+
+.footer__text {
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+    font-family: var(--font-text);
+    color: var(--footer-text-color);
 }
