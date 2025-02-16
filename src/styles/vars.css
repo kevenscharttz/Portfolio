@@ -1,5 +1,4 @@
 :root {
-    /* Document Colors */
     --bg-color: #000000;
     --bg-color-footer: #22D4FD;
     --text-color: #F6F6F6;
@@ -15,7 +14,27 @@
     --nav-link-color: #22D4FD;
     --nav-link-color-hover: #007bff;
 
-    /* Fonts */
+    --font-title: 'Krona One', sans-serif;
+    --font-subtitle: 'Krona One', sans-serif;
+    --font-text: 'Montserrat', sans-serif;
+}
+
+.lightMode {
+    --bg-color: #d6d6d6;
+    --bg-color-footer: #E0F7FA;
+    --text-color: #1A1A1A;
+    --contrast-color: #007BFF;
+
+    --button-color: #007BFF;
+    --button-color-hover: #F1F1F1;
+    --button-text-color: #FFFFFF;
+    --button-text-color-hover: #1A1A1A;
+
+    --footer-text-color: #1A1A1A;
+
+    --nav-link-color: #007BFF;
+    --nav-link-color-hover: #0056b3;
+
     --font-title: 'Krona One', sans-serif;
     --font-subtitle: 'Krona One', sans-serif;
     --font-text: 'Montserrat', sans-serif;

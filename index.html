@@ -6,14 +6,18 @@
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/vars.css">
     <link rel="stylesheet" href="./src/styles/style.css">
+ 
     <title>Portfólio de Keven Willians</title>
 </head>
 <body>
     <header class="header-container">
         <nav class="header__menu">
             <a href="index.html" class="header__menu__link">Home</a>
-            <a href="./src/html/about.html" class="header__menu__link">Sobre mim</a>
+            <a href="./about.html" class="header__menu__link">Sobre mim</a>
         </nav>
+        <button class="switch-container" onclick="toggleButton()" id="switch">
+            <img src="./src/assets/toggle-sun.png" alt="" class="switch__toggle" id="phase">
+        </button>
     </header>
     <main class="main-container">
         <section class="main__content">
@@ -44,6 +48,7 @@
     <footer class="footer-container">
         <P class="footer__text">Desenvolvido por Keven Willians</P>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
