@@ -2,8 +2,8 @@
 
 <div align="center">
   <img alt="GitHub License" src="https://img.shields.io/github/license/kevenscharttz/jogo-do-amigo-secreto">
-  <img src="https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white" alt="CSS Badge">
-  <img src="https://img.shields.io/badge/HTML-e34c26?style=flat&logo=html5&logoColor=white" alt="HTML Badge">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="CSS Badge">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="HTML Badge">
   <img src=https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) alt="Javascript Badge">
 </div>
 
