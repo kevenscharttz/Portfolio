@@ -24,6 +24,7 @@ body {
 
 .header__menu{
     display: flex;
+    width: 50%;
     gap: 80px;
 }
 
@@ -31,8 +32,8 @@ body {
     color: var(--nav-link-color);
     text-decoration: none;
     font-family: var(--font-text);
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .header__menu__link:hover {
@@ -65,25 +66,26 @@ body {
 }
 
 .main-container {
-    padding: 8% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .main__content {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
 .main__content__title {
-    font-size: 36px;
+    font-size: 2.25rem;
+    font-weight: 600;
     font-family: var(--font-title);
 }
 
 .main__content__text {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-text);
 }
 
@@ -98,7 +100,7 @@ body {
 .buttons__subtitle {
     font-family: var(--font-subtitle);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .buttons__link {
@@ -107,10 +109,10 @@ body {
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--contrast-color);
-    width: 378px;
+    width: 50%;
     text-align: center; 
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
@@ -123,6 +125,10 @@ body {
     transition: .3s;
 }
 
+.profile-image {
+    width: 50%;
+}
+
 .footer-container {
     display: flex;
     justify-content: center;
@@ -133,9 +139,9 @@ body {
 }
 
 .footer__text {
-    font-size: 24px;
+    font-size: 1.5rem; 
     text-align: center;
-    line-height: 36px;
+    font-weight: 400;
     font-family: var(--font-text);
     color: var(--footer-text-color);
 }

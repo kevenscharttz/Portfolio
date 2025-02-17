@@ -1,4 +1,4 @@
-function toggleButton() {
+function mudarTema() {
     let html = document.documentElement;
     let button = document.getElementById("phase");
 
