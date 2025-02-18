@@ -9,6 +9,7 @@ body {
     box-sizing: border-box;
     background-color: var(--bg-color);
     color: var(--text-color);
+    min-height: 100vh;
 }
 
 .markup {
@@ -133,10 +134,10 @@ body {
 .footer-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--bg-color-footer);
     width: 100%;
     padding: 24px 0px;
-
 }
 
 .footer__text {

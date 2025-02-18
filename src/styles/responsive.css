@@ -14,9 +14,13 @@
     }
 
     .main-container {
+        display: flex;
         flex-direction: column-reverse;
         width: auto;
-        padding: 5%;
+    }
+
+    .main__content {
+        padding: 10%;
     }
 
     .buttons__link {
