@@ -1,5 +1,8 @@
 /* Mobile Styles */
 @media (max-width: 1200px) {
+    body {
+        height: 100%;
+    }
 
     .header__content {
         padding: 10%;
